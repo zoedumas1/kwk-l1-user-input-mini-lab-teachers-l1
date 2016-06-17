@@ -11,7 +11,8 @@ The first thing we need to do is take in user input with the `gets` method. Reme
 The way `gets` takes in input is important to remember. First, it always takes in input as strings. If a user enters `10`, gets interprets that as `"10"`, not as an integer. The second thing to remember is that `gets` also takes in the newline character. When a user types in their input and then hits the `enter` button, gets keeps track of the input *plus* the line break. Basically, your variable storing the input looks like this:
 
 ```ruby
-city = "nyc"
+city = "nyc
+"
 ```
 See how the string doesn't end after the letter 'c', but actually jumps to the next line? That's the newline character that gets kept track of because of the user pressing the `enter` key after typing `nyc`. We don't want our string to include that newline character, so we have to add the `chomp` method to `gets` to remove that. So we'll use `gets.chomp`.
 
