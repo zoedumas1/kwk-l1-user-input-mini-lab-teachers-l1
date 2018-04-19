@@ -1,5 +1,3 @@
-
-
 ## User Input Mini App
 Now that we know about gets-ing and puts-ing, let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
 
@@ -27,4 +25,4 @@ Your final output should use *string interpolation* to output the data in a full
 
 Remember, you can execute your code by typing `ruby trip.rb` in terminal from inside the directory of this lab.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-user-input-mini-lab' title='User Input Mini App'>User Input Mini App</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-L1 User Input Mini App</p>
