@@ -1,7 +1,7 @@
 puts "Let's plan your trip!"
 puts "Where would you like to stay?"
 
-stay = gets.chomp.downcase
+stay = gets.chomp.capitalize
 
 puts "What would you like to eat?"
 
